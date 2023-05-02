@@ -147,6 +147,13 @@ while (i<array.length){
 }
 whileprint(numbers)
 
-nextfun=(array)=>
+dowhileprint=(numbers)=>{
+    let i=0;
+    do{
+        console.log(numbers[i])
+        i++
 
+    }while(i<numbers.length);
 
+}
+dowhileprint(numbers)
